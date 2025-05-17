@@ -60,8 +60,6 @@ h1 {
 /* MAIN TABLE */
 table {
     width: 100%;
-    margin: 0;
-    padding: 0;
     border-collapse: collapse;
     border-radius: 5px;
     overflow: hidden;
@@ -107,11 +105,43 @@ td {
 }
 
 .table-network-status-icon {
-    width: 15px;
-    height: 15px;
-    background-color: green;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
+    border: 1px solid #000;
 }
+
+/* Style for data-value="5" */
+.table-network-status-icon[data-value="5"] {
+    background-color: green;
+    /* other styles */
+}
+
+/* Style for data-value="4" */
+.table-network-status-icon[data-value="4"] {
+    background-color: yellowgreen;
+}
+
+/* Style for data-value="3" */
+.table-network-status-icon[data-value="3"] {
+    background-color: yellow;
+}
+
+/* Style for data-value="2" */
+.table-network-status-icon[data-value="2"] {
+    background-color: orange;
+}
+
+/* Style for data-value="1" */
+.table-network-status-icon[data-value="1"] {
+    background-color: red;
+}
+
+.main-table-row:nth-of-type(3n) {
+    background-color: #fff1f1;
+}
+
+
 
 
 /* INNER TABLE */
@@ -122,7 +152,7 @@ td {
 }
 
 .inner-header {
-    background: #aaa;
+    background: #ddd;
     font-weight: bold;
 }
 

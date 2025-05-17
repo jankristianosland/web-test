@@ -11,13 +11,14 @@
 <body>
     <h1>Table Test</h1>
     <div class="container">
-        <table>
+        <table class="main-table">
             <thead>
                 <tr class="header">
                     <th class="col1">Status</th>
                     <th>Network</th>
+                    <th>Template</th>
                     <th>MxPerf</th>
-                    <th>vDC</th>
+                    <th>Primary DC</th>
                     <th>Clients</th>
                     <th>Devices</th>
                     <th>Usage</th>
@@ -29,7 +30,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="main-table-row">
                     <td class="col1">
                         <span class="col1-flex">
                             <button class="expand-btn">&#9654;</button>
@@ -37,6 +38,7 @@
                         </span>
                     </td>
                     <td>NOJKO - Home Office</td>
+                    <td>WW Site Template REU</td>
                     <td>10</td>
                     <td>WE2 vDC</td>
                     <td>9</td>
@@ -50,7 +52,7 @@
                 </tr>
                 <tr class="inner-table expand-row" style="display: none;">
                     <td></td> <!-- Empty cell for the first column -->
-                    <td colspan="11">
+                    <td colspan="12">
                         <table class="inner-table">
                             <tr class="inner-header">
                                 <td>Uplink</td>
@@ -85,14 +87,15 @@
                         </table>
                     </td>
                 </tr>
-                <tr>
+                <tr class="main-table-row">
                     <td class="col1">
                         <span class="col1-flex">
                             <button class="expand-btn">&#9654;</button>
-                            <div class="table-network-status-icon" data-value="5"></div>
+                            <div class="table-network-status-icon" data-value="2"></div>
                         </span>
                     </td>
                     <td>NOLYS - Lysaker</td>
+                    <td></td>
                     <td>10</td>
                     <td>WE2 vDC</td>
                     <td>500</td>
@@ -106,9 +109,9 @@
                 </tr>
                 <tr class="inner-table expand-row" style="display: none;">
                     <td></td> <!-- Empty cell for the first column -->
-                    <td colspan="11">
+                    <td colspan="12">
                         <table class="inner-table">
-                            <tr class="inner-header">
+                            <tr class="inner inner-header">
                                 <td>Uplink</td>
                                 <td>Status</td>
                                 <td>Bandwidth</td>
@@ -118,7 +121,7 @@
                                 <td>Rtt ms</td>
                                 <td>Uptime %</td>
                             </tr>
-                            <tr>
+                            <tr class="inner">
                                 <td>WAN1</td>
                                 <td>Active</td>
                                 <td>500/500</td>
@@ -128,7 +131,7 @@
                                 <td>30</td>
                                 <td>100</td>
                             </tr>
-                            <tr>
+                            <tr class="inner">
                                 <td>WAN2</td>
                                 <td>Active</td>
                                 <td>500/500</td>
