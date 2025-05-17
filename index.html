@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr class="header">
+                    <th class="col1">Status</th>
+                    <th>Network</th>
+                    <th>MxPerf</th>
+                    <th>vDC</th>
+                    <th>Clients</th>
+                    <th>Devices</th>
+                    <th>Usage</th>
+                    <th class="network-health">Health</th>
+                    <th>Uptime 2h %</th>
+                    <th>Uptime 24h %</th>
+                    <th>Uptime 7d %</th>
+                    <th>Uptime 30d %</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col1">
+                        <button class="expand-btn">&#9654;</button>
+                        5
+                    </td>
+                    <td>NOJKO - Home Office</td>
+                    <td>10</td>
+                    <td>WE2 vDC</td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>100MB</td>
+                    <td class="network-health"></td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr class="inner-table expand-row" style="display: none;">
+                    <td></td> <!-- Empty cell for the first column -->
+                    <td colspan="11">
+                        <table class="inner-table">
+                            <tr class="inner-header">
+                                <td>Uplink</td>
+                                <td>Status</td>
+                                <td>Bandwidth</td>
+                                <td>Rx %</td>
+                                <td>Tx %</td>
+                                <td>Loss %</td>
+                                <td>Rtt ms</td>
+                                <td>Uptime %</td>
+                            </tr>
+                            <tr>
+                                <td>WAN1</td>
+                                <td>Active</td>
+                                <td>500/500</td>
+                                <td>50</td>
+                                <td>30</td>
+                                <td>0</td>
+                                <td>30</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>WAN2</td>
+                                <td>Standby</td>
+                                <td>200/20</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>50</td>
+                                <td>100</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col1">
+                        <button class="expand-btn">&#9654;</button>
+                        4
+                    </td>
+                    <td>NOLYS - Lysaker</td>
+                    <td>10</td>
+                    <td>WE2 vDC</td>
+                    <td>500</td>
+                    <td>60</td>
+                    <td>10GB</td>
+                    <td class="network-health"></td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr class="inner-table expand-row" style="display: none;">
+                    <td></td> <!-- Empty cell for the first column -->
+                    <td colspan="11">
+                        <table class="inner-table">
+                            <tr class="inner-header">
+                                <td>Uplink</td>
+                                <td>Status</td>
+                                <td>Bandwidth</td>
+                                <td>Rx %</td>
+                                <td>Tx %</td>
+                                <td>Loss %</td>
+                                <td>Rtt ms</td>
+                                <td>Uptime %</td>
+                            </tr>
+                            <tr>
+                                <td>WAN1</td>
+                                <td>Active</td>
+                                <td>500/500</td>
+                                <td>25</td>
+                                <td>10</td>
+                                <td>0</td>
+                                <td>30</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>WAN2</td>
+                                <td>Active</td>
+                                <td>500/500</td>
+                                <td>25</td>
+                                <td>10</td>
+                                <td>0</td>
+                                <td>30</td>
+                                <td>100</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

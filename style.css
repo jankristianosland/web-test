@@ -1,0 +1,124 @@
+/**
+ * Define Coop Colors
+ */
+:root {
+    --color-blue-0: #dcf0fa;
+    --color-blue-1: #0d6efd;
+    --color-blue-2: #0a58ca;
+    --color-blue-3: #003366;
+    --color-pink: #d63384;
+    --color-grey: #6c757d;
+    --background-color-tooltip: #fff0b4;
+    --color-background: #fcf8e3;
+}
+
+/**
+ * Define some global settings
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Coop Sans", sans-serif;
+    overflow: auto;
+}
+
+/**
+ * Setup the HTML Body and container that will contain the web page
+ */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    color: black;
+    background-color: skyblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.header {
+    background: #aaa;
+    font-weight: bold;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+.col1 {
+    width: 50px;
+}
+
+.network-health {
+    width: 250px;
+}
+
+/* ...existing code... */
+.expand-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.inner-table {
+    width: 100%;
+    /*border-collapse: collapse;*/
+    background: var(--color-blue-0);
+}
+
+.inner-header {
+    background: #aaa;
+    font-weight: bold;
+}
+
+.inner-table td {
+    border: 1px solid #333;
+    padding: 6px;
+}
+
+/* Health BAR */
+td .health-bar {
+    display: flex;
+    height: 16px;
+    width: 100%;
+    background: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.health-segment {
+    flex: 1 1 0;
+    height: 100%;
+    background: #28a745;
+    /* green for up */
+}
+
+/* Optional: red for down
+.health-segment.down {
+    background: #dc3545;
+}
+*/
+/* ...existing code... */
