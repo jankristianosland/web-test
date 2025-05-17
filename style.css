@@ -40,28 +40,42 @@ body {
     background-color: skyblue;
 }
 
+h1 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
+    border-radius: 5px;
     width: 80%;
     height: 100%;
 }
 
+/* MAIN TABLE */
 table {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .header {
     background: #aaa;
     font-weight: bold;
+    text-align: left;
 }
 
 th,
 td {
-    border: 1px solid #333;
+    /*border: 1px solid #333;*/
     padding: 8px;
 }
 
@@ -69,11 +83,16 @@ td {
     width: 50px;
 }
 
+.col1-flex {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
 .network-health {
     width: 250px;
 }
 
-/* ...existing code... */
 .expand-btn {
     background: none;
     border: none;
@@ -83,10 +102,23 @@ td {
     vertical-align: middle;
 }
 
+.expand-btn:hover {
+    color: var(--color-blue-1);
+}
+
+.table-network-status-icon {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+/* INNER TABLE */
 .inner-table {
     width: 100%;
-    /*border-collapse: collapse;*/
-    background: var(--color-blue-0);
+    background: white;
+    border-collapse: collapse;
 }
 
 .inner-header {
@@ -95,7 +127,7 @@ td {
 }
 
 .inner-table td {
-    border: 1px solid #333;
+    /*border: 1px solid #333;*/
     padding: 6px;
 }
 
@@ -121,4 +153,3 @@ td .health-bar {
     background: #dc3545;
 }
 */
-/* ...existing code... */
