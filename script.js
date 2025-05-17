@@ -10,10 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Health bar rendering
 document.addEventListener('DOMContentLoaded', function () {
-    // ...existing expand-btn code...
-
-    // Health bar rendering
     document.querySelectorAll('.network-health').forEach(function (cell) {
         const bar = document.createElement('div');
         bar.className = 'health-bar';
