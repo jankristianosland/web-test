@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// ...existing code...
 document.addEventListener('DOMContentLoaded', function () {
     // ...existing expand-btn code...
 
@@ -36,4 +35,3 @@ document.addEventListener('DOMContentLoaded', function () {
         cell.appendChild(bar);
     });
 });
-// ...existing code...

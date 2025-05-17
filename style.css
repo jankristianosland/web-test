@@ -140,27 +140,6 @@ td {
     background-color: #fff1f1;
 }
 
-
-
-
-/* INNER TABLE */
-.inner-table {
-    width: 100%;
-    background: white;
-    border-collapse: collapse;
-}
-
-.inner-header {
-    background: #ddd;
-    font-weight: bold;
-}
-
-.inner-table td {
-    /*border: 1px solid #333;*/
-    padding: 6px;
-}
-
-/* Health BAR */
 td .health-bar {
     display: flex;
     height: 16px;
@@ -182,3 +161,23 @@ td .health-bar {
     background: #dc3545;
 }
 */
+
+
+
+
+/* INNER TABLE */
+.inner-table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+.inner-header {
+    background: #ddd;
+    font-weight: bold;
+}
+
+.inner-table td {
+    /*border: 1px solid #333;*/
+    padding: 6px;
+}
