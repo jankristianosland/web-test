@@ -21,7 +21,7 @@
 }
 
 html {
-    font-family: "Coop Sans", sans-serif;
+    font-family: sans-serif;
     overflow: auto;
 }
 
@@ -95,7 +95,7 @@ td {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-right: 5px;
     vertical-align: middle;
 }
@@ -114,7 +114,6 @@ td {
 /* Style for data-value="5" */
 .table-network-status-icon[data-value="5"] {
     background-color: green;
-    /* other styles */
 }
 
 /* Style for data-value="4" */
