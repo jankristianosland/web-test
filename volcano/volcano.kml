@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2"
+     xmlns:kml="http://www.opengis.net/kml/2.2">
+    <Document>
+        <description>
+            The Weekly Volcanic Activity Report is a cooperative project between the Smithsonian's Global Volcanism Program and the US Geological Survey's Volcano Hazards Program.
+        </description>
+        <LookAt>
+            <range>8046347</range>
+        </LookAt>
+        <visibility>1</visibility>
+        <Style id="h-red">
+            <IconStyle>
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1.1</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <Style id="n-red">
+            <IconStyle>
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>0.8</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0.8</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>$[description]</text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id="volcanoes">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#n-red</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#h-red</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Placemark>
+            <name>Kanlaon</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>123.1300</longitude>
+                <latitude>10.4096</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>123.1300,10.4096,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Kanlaon</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>New Activity / Unrest</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Philippine Institute of Volcanology and Seismology (PHIVOLCS) reported continuing unrest at Kanlaon during 20-26 May. The seismic network recorded 1-31 daily volcanic earthquakes. Daily sulfur dioxide emissions ranged from 653 to 1,836 tonnes per day. Gas-and-steam emissions generally rose 75-700 m above the crater rim and drifted NW, W, SW, and SSW. According to Civil Defense PH, heavy rain on 22 May generated lahars that overflowed the Tamburong creek at the Tamburong Bridge in Barangay Biaknabato. The lahar deposits, consisting of mud and volcanic debris, blocked the Biaknabato Bridge and a portion of the Biaknabato Highway in La Castellana. The Alert Level remained at 3 (on a scale of 0-5); the public was warned to stay 6 km away from the summit and pilots were warned not to fly close to the volcano.
+                            </p>
+                            <p align="justify">
+                                Sources: Office of Civil Defense, Republic of the Philippines, Philippine Institute of Volcanology and Seismology (PHIVOLCS)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Lewotobi</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>122.7750</longitude>
+                <latitude>-8.5420</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>122.7750,-8.5420,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Lewotobi</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>New Activity / Unrest</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                In a special 25 May report the Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG) stated that eruptive activity at Lewotobi Laki-laki had decreased after the larger 18 May eruption and subsequent ash plumes and crater incandescence observed during 19-20 May. Seismicity indicated decreasing surface activity and magmatic recharge at depth during 20-25 May, and tiltmeter data indicated deflation. No rumbling was heard and no incandescence was visible at the summit. An eruptive event at 0649 on 23 May produced a dense gray ash plume that rose around 300 m above the summit and drifted SW and W. Later that day a drone flight over the summit revealed that dark lava had filled the crater, covering about 87,000 square meters. At 0900 on 25 May the Alert Level was lowered to 3 on a scale of 1-4) and the public was warned to stay 6 km away from the center of Laki-laki. White steam-and-gas plumes rose as high as 800 m above the crater rim and drifted in various directions during 25-28 May.
+                            </p>
+                            <p align="justify">
+                                Source: Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG, also known as CVGHM)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Ahyi</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>145.0300</longitude>
+                <latitude>20.4200</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>145.0300,20.4200,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Ahyi</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                No activity at the Ahyi Seamount was detected in either satellite or acoustic data from underwater pressure sensors near Wake Island (about 2,270 km E) during 17-23 May, though unrest continued. The Exploration Vessel Nautilus visited the area and deployed a remotely operated vehicle (ROV) on 19 May. The observations confirmed that lava had erupted over the past few years, building the summit to within 50-60 m of the ocean surface. Ahyi remained active with vigorous degassing of bubbles observed across a broad area of the summit. The Aviation Color Code remained at Yellow (the second lowest level on a four-color scale) and the Volcano Alert Level remained at Advisory (the second lowest level on a four-level scale).
+                            </p>
+                            <p align="justify">
+                                Source: US Geological Survey
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Aira</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>130.6589</longitude>
+                <latitude>31.5772</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>130.6589,31.5772,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Aira</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Japan Meteorological Agency (JMA) reported ongoing eruptive activity at Minamidake Crater (Aira Caldera?s Sakurajima volcano) during 19-28 May. The seismic network recorded 44 eruptive events and 38 explosions during 19-23 May that produced ash plumes rising up to 3 km above the crater rim and drifting N; the tallest plume followed an explosion at 1500 on 20 May. Large blocks from the explosions were ejected as far as 1.2 km from the crater rim. Sulfur dioxide emissions were extremely high, averaging 11,200 tons per day (t/d) on 20 May and 4,300 t/d on 22 May. Deformation data indicated continuing inflation. Only very small eruptive events were recorded during 26-28 May. The Alert Level remained at 3 (on a 5-level scale), and the public was warned to be cautious within 2 km of both the Minimadake and Showa craters.
+                            </p>
+                            <p align="justify">
+                                Source: Japan Meteorological Agency (JMA)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Great Sitkin</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>-176.1300</longitude>
+                <latitude>52.0760</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>-176.1300,52.0760,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Great Sitkin</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Alaska Volcano Observatory (AVO) reported that slow lava effusion continued to feed a thick flow in Great Sitkin?s summit crater during 21-27 May; a 22 May radar image confirmed that lava was slowly advancing. Small daily earthquakes were detected by the seismic network. Weather clouds sometimes obscured views of the volcano. The Volcano Alert Level remained at Watch (the third level on a four-level scale) and the Aviation Color Code remained at Orange (the third color on a four-color scale).
+                            </p>
+                            <p align="justify">
+                                Source: US Geological Survey Alaska Volcano Observatory (AVO)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Home Reef</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>-174.7750</longitude>
+                <latitude>-18.9920</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>-174.7750,-18.9920,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Home Reef</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Tonga Geological Services reported that the eruption at Home Reef continued during 11-24 May, though satellite observations suggested decreasing activity. Thermal anomalies were last detected on 4 May and no visible ash emissions were identified in a 15 May image, though discolored water surrounding the island suggested submarine activity. Evidence for explosive activity during 20-21 May included new tephra deposits on the cone?s flanks and low-level ash plumes. Weather clouds often obscured views. Infrasound instruments did not detect any signals. The Aviation Color Code remained at Yellow (the second lowest level on a four-level scale, the Maritime Alert Level remained at Orange (the third level on a four-level scale) with advice to stay at least 2 nautical miles (3.7 km) from the island, and the Alert Level for residents of Vava?u and Ha?apai remained at Green (the first level on a four-level scale).
+                            </p>
+                            <p align="justify">
+                                Source: Tonga Geological Services, Government of Tonga
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Karymsky</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>159.4430</longitude>
+                <latitude>54.0490</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>159.4430,54.0490,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Karymsky</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Kamchatkan Volcanic Eruption Response Team (KVERT) reported that, in general, moderate explosive activity continued at Karymsky during 15-22 May. A thermal anomaly over the volcano was identified in satellite images during 16-18, 20, and 22 May; weather clouds obscured views on other days. The Aviation Color Code remained at Orange (the third level on a four-color scale). Dates are based on UTC; specific events are in local time where noted.
+                            </p>
+                            <p align="justify">
+                                Source: Kamchatkan Volcanic Eruption Response Team (KVERT)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Kilauea</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>-155.2870</longitude>
+                <latitude>19.4210</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>-155.2870,19.4210,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Kilauea</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Hawaiian Volcano Observatory (HVO) reported that the eruption within Kilauea?s Kaluapele summit caldera, characterized by episodic fountaining from two vents along the SW margin of Halema?uma?u Crater, continued at variable levels during 21-27 May. Incandescence at both the N and S vents was visible during 20-25 May, along with intermittent spattering at both vents and occasional dome fountaining at the N vent. Large yellow flames from burning hydrogen gas sometimes rose from the N vent. The sulfur dioxide emission rate averaged around 1,200 tonnes per day (t/d), similar to rates recorded during prior pauses between high fountaining events. After midday on 24 May minor fountaining at the N vent as high as 65 m was accompanied by lava overflowing the cone onto the crater floor. Strong incandescence and periodic vigorous spattering at both vents was visible in the afternoon of 24 May and overnight during 24-25 May. Lava fountaining at the N vent and an overspill of lava onto the crater floor also occurred overnight.
+                            </p>
+                            <p align="justify">
+                                Narrow lava jets rose from the N vent on 25 May and became sustained fountains at 1615 which quickly began to cover the crater floor with lava flows. The activity escalated to fountains over 300 m tall within 30 minutes. Fountaining at the S vent began at 1720 and grew rapidly, reaching sustained heights of about 250 m. The fountains produced an eruptive plume heavily laden with tephra (ash, scoria, and Pele's hair) that reached at least 4.3 km in height. Sulfur dioxide emission rates were estimated to be 50,000-75,000 t/d based on webcam images from the Mauna Loa summit. Both vents produced lava flows that covered about half of the crater floor. After about six hours of sustained fountaining, the N vent stopped erupting at 2148, and the S vent stopped erupting at approximately 2225 on 25 May. Strands of Pele?s hair were present throughout the summit area of Hawai?i Volcanoes National Park and surrounding communities. The Volcano Alert Level remained at Watch (the third level on a four-level scale) and the Aviation Color Code remained at Orange (the third color on a four-color scale).
+                            </p>
+                            <p align="justify">
+                                Source: US Geological Survey Hawaiian Volcano Observatory (HVO)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Kirishimayama</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>130.8620</longitude>
+                <latitude>31.9340</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>130.8620,31.9340,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Kirishimayama</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Japan Meteorological Agency (JMA) reported that increased unrest at Shinmoedake (Shinmoe peak, a stratovolcano of the Kirishimayama volcano group) during March through early May had stabilized. Volcanic earthquakes with epicenters beneath Shinmoedake began to increase on 28 March and tiltmeter data indicated inflation on 30 March. During 22-26 April minor NW tilt was observed in inclinometer data and the number of earthquakes further increased. Volcanic tremor was detected on 27 April and during 1-2 May. During the first half of May seismicity remained high but did not significantly increase, and there were no changes detected in tiltmeter data. At 1100 on 27 May the Alert Level was lowered to 2 (on a 5-level scale) and the public was warned to exercise caution within 2 km from Shinmoedake Crater.
+                            </p>
+                            <p align="justify">
+                                Source: Japan Meteorological Agency (JMA)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Lewotolok</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>123.5080</longitude>
+                <latitude>-8.2740</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>123.5080,-8.2740,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Lewotolok</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG) reported that an eruption at Lewotolok was ongoing during 21-27 May. Daily white steam-and-gas plumes rose as high as 700 m above the summit of the cone and drifted NW and W. Gray ash plumes rose 100-500 m above the summit and drifted SE, NW, and W during 23 and 25-27 May. Clear nighttime webcam images showed incandescent material at the summit cone and on the upper S flank. The Alert Level remained at 2 (on a scale of 1-4) and the public was warned to stay 2 km away from the vent and 2.5 km away on the S, SE, and W flanks.
+                            </p>
+                            <p align="justify">
+                                Source: Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG, also known as CVGHM)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Marapi</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>100.4740</longitude>
+                <latitude>-0.3800</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>100.4740,-0.3800,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Marapi</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG) reported that eruptive activity at Marapi (on Sumatra) continued during 21-27 May, characterized by occasional dense ash plumes. White plumes rose 100-200 m above the summit and drifted in multiple directions during 21-22 and 24 May. Eruptive events were recorded at 1227 on 23 May and at 1457 on 26 May, though weather conditions prevented visual confirmation. On 25 May white-and-brown plumes rose 100-250 m above the summit and drifted E and SE. At 0822 on 27 May a dense white-and-gray ash plume rose 1.2 km above the summit and drifted SE. The Alert Level remained at 2 (on a scale of 1-4) and the public was warned to stay 3 km away from the active crater.
+                            </p>
+                            <p align="justify">
+                                Source: Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG, also known as CVGHM)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Merapi</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>110.4460</longitude>
+                <latitude>-7.5400</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>110.4460,-7.5400,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Merapi</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Balai Penyelidikan dan Pengembangan Teknologi Kebencanaan Geologi (BPPTKG) reported that the eruption at Merapi (on Java) continued during 16-22 May. Seismicity remained at high levels. The SW lava dome produced 41 lava avalanches that traveled as far as 2 km SW down the Bebeng drainage, 10 that traveled as far as 1.8 km SW down the Krasak drainage, and 73 that traveled as far as 2 km W down the Sat/Putih drainage. Small morphological changes to the SW lava dome resulted from continuing effusion and minor collapses. The Alert Level remained at 3 (on a scale of 1-4), and the public was warned to stay 3-7 km away from the summit, based on location.
+                            </p>
+                            <p align="justify">
+                                Source: Balai Penyelidikan dan Pengembangan Teknologi Kebencanaan Geologi (BPPTKG)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Poas</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>-84.2330</longitude>
+                <latitude>10.2000</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>-84.2330,10.2000,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Poas</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Observatorio Vulcanolgico y Sismolgico de Costa Rica-Universidad Nacional (OVSICORI-UNA) reported continuing gas-and-steam emissions at Pos during 21-27 May; ash content of the plumes was either very low or not present. Sulfur dioxide gas emissions remained at high levels, though they had decreased compared to the previous week. The emissions detected in satellite data drifting SW on 20 May were estimated to be 598 tonnes per day (t/d). The fixed Differential Optical Absorption Spectroscopy (DOAS) station recorded slightly lower averages compared to the previous week, averaging around 309 t/d during 17-23 May, and a transect using a mobile DOAS instrument recorded 3,000 t/d on 22 May, similar to the previous week. Intense incandescence continued to be visible at both Boca A and Boca C vents. On 21 May the temperature at Boca A was measured with an infrared sensor mounted on a drone, revealing a maximum temperature of 470 degrees Celsius. Water continued pooling at Boca C. Pulses in acoustic data during 26-27 May likely originated from bubbling at Boca C. The volcano?s Alert Level remained at 3 (the second highest level on a four-level scale).
+                            </p>
+                            <p align="justify">
+                                Source: Observatorio Vulcanologico y Sismologico de Costa Rica-Universidad Nacional (OVSICORI-UNA)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Semeru</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>112.9220</longitude>
+                <latitude>-8.1080</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>112.9220,-8.1080,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Semeru</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG) reported that activity continued at Semeru during 21-27 May, with multiple daily eruptive events recorded by the seismic network. Daily white-and-gray ash plumes rose 400-1,200 m above the summit and drifted in multiple directions. The Alert Level remained at 2 (the second lowest level on a scale of 1-4). The public was warned to stay at least 3 km away from the summit in all directions, 8 km from the summit to the SE, 500 m from the banks of the Kobokan drainage as far as 13 km from the summit, and to avoid other drainages including the Bang, Kembar, and Sat, due to lahar, avalanche, and pyroclastic flow hazards.
+                            </p>
+                            <p align="justify">
+                                Source: Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG, also known as CVGHM)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+        <Placemark>
+            <name>Sheveluch</name>
+            <Snippet maxLines="0"></Snippet>
+            <LookAt>
+                <longitude>161.3600</longitude>
+                <latitude>56.6530</latitude>
+                <range>32185</range>
+            </LookAt>
+            <styleUrl>#volcanoes</styleUrl>
+            <Point>
+                <coordinates>161.3600,56.6530,0</coordinates>
+            </Point>
+            <description>
+                <![CDATA[
+                <table border="0" cellspacing="3" width="320" align="center">
+                    <tr align="left">
+                        <td width="66%" align="left">
+                            <a href="https://volcano.si.edu/">
+                                <img src="https://volcano.si.edu/news/ge-gvplogo.png" width="227" height="45" />
+                            </a>
+                        </td>
+                        <td width="33%" align="right">
+                            <a href="https://volcanoes.usgs.gov/">
+                                <img src="https://volcano.si.edu/news/ge-usgslogo.png" width="109" height="43" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2">
+                            <hr />
+                            <font size="6"><b>Sheveluch</b></font><br />
+                            <br />
+                            <font size="4"><b>Report for 21 May-27 May 2025</b></font><br />
+                            <font size="4"><b>Ongoing Activity</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p align="justify">
+                                The Kamchatkan Volcanic Eruption Response Team (KVERT) reported that lava extrusion may have continued at Sheveluch?s ?300 years of RAS? dome on the SW flank of Old Sheveluch and at the Young Sheveluch dome during 15-22 May. Thermal anomalies over the domes were identified almost daily in satellite images; weather clouds sometimes obscured views, especially during the second half of the week. The Far Eastern Branch of the Russian Academy of Sciences (FEB RAS) reported that explosive activity was recorded by infrasound instruments on 16 May, with ash plumes that rose as high as 4.7 km above the summit and drifted NE. KVERT noted that ash plumes drifted 835 km NE and 185 km SE during 16-18 May. The Aviation Color Code remained at Orange (the second highest level on a four-color scale). Dates are based on UTC; specific events are in local time where noted.
+                            </p>
+                            <p align="justify">
+                                Sources: Institute of Volcanology and Seismology (IVS) of the Far Eastern Branch of the Russian Academy of Sciences (FEB RAS), Kamchatkan Volcanic Eruption Response Team (KVERT)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr height="6">
+                        <td colspan="2">
+                            <hr />
+                        </td>
+                    </tr>
+                </table>
+                ]]>
+            </description>
+        </Placemark>
+    </Document>
+</kml>
