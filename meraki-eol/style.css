@@ -1,0 +1,117 @@
+/**
+ * Define Coop Colors
+ */
+:root {
+    --color-blue-0: #dcf0fa;
+    --color-blue-1: #0d6efd;
+    --color-blue-2: #0a58ca;
+    --color-blue-3: #003366;
+    --color-pink: #d63384;
+    --color-grey: #6c757d;
+    --background-color-tooltip: #fff0b4;
+    --color-background: #fcf8e3;
+}
+
+/**
+ * Define some global settings
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+/**
+ * Setup the HTML Body and container that will contain the web page
+ */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    color: black;
+    /*background-color: skyblue;*/
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 75px 400px;
+    background-color: white;
+    /*border: 5px solid black;*/
+    gap: 20px;
+    width: 80%;
+    min-height: 800px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.row1 {
+    border: 2px dashed green;
+    box-shadow: #bbb 0px 0px 10px;
+}
+
+.row2 {
+    display: flex;
+    /*
+    background-color: lightgrey;
+    */
+    box-shadow: #6c757d 0px 0px 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.row2>table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.row2>table th {
+    background-color: skyblue;
+    font-size: 0.9em;
+    color: black;
+    text-align: center;
+}
+
+.row2>table tr,
+th,
+td {
+    border: 1px solid black;
+    font-size: 0.9em;
+    height: 25px;
+    padding: 5px;
+}
+
+.col1 {
+    background-color: white;
+    text-align: left;
+}
+
+.col2 {
+    background-color: white;
+    text-align: center;
+}
+
+.col3 {
+    background-color: white;
+    text-align: right;
+}
