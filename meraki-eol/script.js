@@ -1,35 +1,75 @@
-document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.expand-btn').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-            const mainRow = btn.closest('tr');
-            const expandRow = mainRow.nextElementSibling;
-            const isOpen = expandRow.style.display === 'table-row';
-            expandRow.style.display = isOpen ? 'none' : 'table-row';
-            btn.innerHTML = isOpen ? '&#9654;' : '&#9660;'; // ▶ or ▼
-        });
+let devices = [
+    {
+        "model": "MX68"
+    },
+    {
+        "model": "MX68"
+    },
+    {
+        "model": "MX68"
+    },
+    {
+        "model": "MX84"
+    },
+    {
+        "model": "MX100"
+    },
+    {
+        "model": "MS120-24"
+    },
+    {
+        "model": "MS210-24P"
+    },
+    {
+        "model": "MR42"
+    },
+    {
+        "model": "MR46"
+    },
+    {
+        "model": "MG21-HW-WW"
+    },
+    {
+        "model": "MG51-HW-WW"
+    },
+];
+
+let merakiEOL = [
+    {
+        "Product": "MX84",
+        "Announcement": "Aug 10, 2021",
+        "End-of-Sale Date": "Oct 31, 2021",
+        "End-of-Support Date": "Oct 31, 2026"
+    },
+    {
+        "Product": "MX100",
+        "Announcement": "Aug 10, 2021",
+        "End-of-Sale Date": "Feb 1, 2022",
+        "End-of-Support Date": "Feb 1, 2027"
+    }
+];
+
+
+function getEOLInfo(devices, merakiEOL) {
+    // Count the different models in devices, then check each model against merakiEOL Product:
+    // Then create a new array with the model, count, and EOL information if available.
+    let modelCounts = devices.reduce((acc, device) => {
+        acc[device.model] = (acc[device.model] || 0) + 1;
+        return acc;
+    }, {});
+
+    return Object.keys(modelCounts).map(model => {
+        let eolData = merakiEOL.find(eol => eol.Product === model);
+        return {
+            model: model,
+            count: modelCounts[model],
+            eol: eolData ? eolData["End-of-Support Date"] : null
+        };
     });
-});
+}
 
-// Health bar rendering
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.network-health').forEach(function (cell) {
-        const bar = document.createElement('div');
-        bar.className = 'health-bar';
+    let eolArray = getEOLInfo(devices, merakiEOL);
 
-        // For performance, don't create 8640 DOM elements.
-        // Instead, use a CSS gradient for all-up (green) or a few segments for demo.
-        // For this exercise, all data points are 1 (up).
-        bar.style.background = 'linear-gradient(to right, #28a745 100%)';
-
-        // Optionally, if you want to show segments, use a small number for demo:
-        /*
-        for (let i = 0; i < 100; i++) { // Use 100 segments for demo
-            const seg = document.createElement('div');
-            seg.className = 'health-segment';
-            bar.appendChild(seg);
-        }
-        */
-
-        cell.appendChild(bar);
-    });
+    console.log("eolArray", eolArray);
 });
