@@ -1,0 +1,367 @@
+/**
+ * Created by Jan Kristian Osland @ Sicra AS 2025
+ * The styles are defined using CSS variables for easy customization and maintenance.
+ * The application uses the Coop Sans font, which is a custom font designed for the Coop brand.
+ * The font files are included in the project and are loaded using the @font-face rule.
+ * The application is designed to be responsive and works well on different screen sizes.
+ * The styles are organized into sections for easy navigation and understanding.
+ */
+
+/**
+ * The Coop Sans font is used throughout the application.
+ * The font files are in woff2 format for better performance.
+ */
+@font-face {
+    font-style: normal;
+    font-display: block;
+    src: url(./305a52b803501295a1631fa7c3639d6f.woff2) format('woff2');
+    font-weight: 400;
+    font-family: "Coop Sans";
+}
+
+@font-face {
+    font-style: normal;
+    font-display: block;
+    src: url(./5b2b982bccbe9991e501cf33021d4cd5.woff2) format('woff2');
+    font-weight: 500;
+    font-family: "Coop Sans";
+}
+
+@font-face {
+    font-style: normal;
+    font-display: block;
+    src: url(./c560b0f1286018997d6fe5c485eead3f.woff2) format('woff2');
+    font-weight: 600;
+    font-family: "Coop Sans";
+}
+
+/**
+ * Define Coop Colors
+ */
+:root {
+    --color-blue-0: #dcf0fa;
+    --color-blue-1: #0d6efd;
+    --color-blue-2: #0a58ca;
+    --color-blue-3: #003366;
+    --color-pink: #d63384;
+    --color-grey: #6c757d;
+    --background-color-tooltip: #fff0b4;
+    --color-background: #fcf8e3;
+}
+
+/** 
+ * Define some global settings
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Coop Sans", sans-serif;
+    overflow: auto;
+}
+
+/**
+ * Setup the HTML Body and container that will contain the web page
+ */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    color: var(--color-blue-3);
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/** 
+ * Style the header
+ */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: var(--color-blue-3);
+}
+
+.coop-logo {
+    width: 150px;
+    height: 75px;
+    fill: white;
+}
+
+.version {
+    font-weight: 400;
+}
+
+/**
+ * Styles for the Main Content box
+ */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 88%;
+    max-width: 600px;
+    min-height: 500px;
+    background-color: var(--color-blue-0);
+}
+
+
+/** 
+ * Style the ToolTips
+ */
+.info-box-svg {
+    height: 24px;
+    width: 24px;
+    fill: white;
+    stroke: black;
+    stroke-width: 4;
+    margin-left: 5px;
+}
+
+.info-svg-text {
+    font-family: "Coop Sans", sans-serif;
+    font-size: 3.0rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.info-box {
+    position: absolute;
+    color: black;
+    background-color: var(--background-color-tooltip);
+    border-radius: 5px;
+    border: solid 1px var(--color-grey);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.info-headers {
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+/**
+ * Style all the input elements
+ */
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tag-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.item label,
+.item-label {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 0;
+    width: 40%;
+    text-align: left;
+}
+
+.tag-item label {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    width: 40%;
+    text-align: left;
+}
+
+.item input,
+.item select,
+.tag-item input,
+.tag-item select {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1px solid var(--color-grey);
+    border-radius: 5px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.custom-dropdown {
+    position: relative;
+    width: 60%;
+}
+
+#tagTeamSearch {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.dropdown-options {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.dropdown-option {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown-option:hover {
+    background-color: #f0f0f0;
+}
+
+/** 
+ * Style the Submit Button
+ */
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.button-container button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: var(--color-blue-3);
+    font-size: 1.2em;
+    font-weight: 500;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: var(--color-blue-1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/** 
+ * Style the Response and Post sections
+ */
+.response,
+.uri,
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 100%;
+}
+
+.response-content,
+.uri-content,
+.post-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--color-grey);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+/** 
+ * Style the spinner loader
+ */
+.vending-submitting {
+    position: absolute;
+    top: calc(100% / 2 - 100px);
+    left: calc(100% / 2 - 60px);
+    height: 120px;
+    width: 120px;
+    border: 6px solid;
+    border-color: var(--color-blue-3) transparent var(--color-blue-3) transparent;
+    border-radius: 50%;
+    animation: spin 1.3s ease infinite;
+    z-index: 100;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/**
+ * style links
+ */
+a {
+    color: var(--color-blue-1);
+}
+
+/**
+ * Style the invalid input elements
+ */
+.invalid {
+    border: 2px solid red;
+    background-image: linear-gradient(to right, red 50%, transparent 50%);
+    background-size: 4px 4px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+/**
+ * Hide the elements with class "hidden" from the screen
+ */
+.hidden {
+    display: none;
+}
