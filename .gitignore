@@ -19,9 +19,9 @@ __pycache__/
 *.pyc
 
 # Node.js
-node_modules/
-dist/
-.parcel-cache/
+**/node_modules/
+**/dist/
+**/.parcel-cache/
 
 # Div Keys
 *.pem
