@@ -22,6 +22,7 @@ __pycache__/
 **/node_modules/
 **/dist/
 **/.parcel-cache/
+**/.parcel-cache
 
 # Div Keys
 *.pem
