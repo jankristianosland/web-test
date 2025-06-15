@@ -1,4 +1,4 @@
 npm init -y
 npm i -D parcel
-npm build
-npm start
+npm run build
+npm run start
