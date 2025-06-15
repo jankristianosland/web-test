@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Test project for Parcel bundler",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "start": "parcel ./src/pages/*.html",
+    "build": "parcel build ./src/pages/*.html"
   },
   "keywords": [],
   "author": "Jan Kristian Osland",
