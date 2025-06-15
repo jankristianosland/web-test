@@ -1,4 +1,37 @@
+#MAC DS_Store file
 .DS_Store
+
+#VSCode
+*.code-workspace
+.vscode/
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.tfvars
+
+# Python
+**/.mypy_cache/*
+__pycache__/
+.python-version
+*.pyc
+
+# Node.js
 node_modules
 dist
-.cache
+.parcel-cache
+
+# Div Keys
+*.pem
+*.cer
+*.key
+*.pfx
+config.json
+.htpasswd
+
+# Div Files and Directories
+tmp/
+*.log
+*.bak
